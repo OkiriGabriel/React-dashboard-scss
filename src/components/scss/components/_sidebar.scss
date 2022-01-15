@@ -1,0 +1,33 @@
+.sidebar {
+    background: #070246;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .upper__container {
+        .brand{
+            cursor: pointer;
+            img{
+                height: 8rem;
+            }
+        }
+        .links {
+            li {
+                padding-right: 0;
+                list-style-type: none;
+                margin: 1.5rem 0;
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                font-size: 1.2rem;
+                svg{
+                    color: #fff
+                }
+                a {
+                    text-decoration: none;
+                    color: #fff
+                }
+            }
+        }
+    }
+}
